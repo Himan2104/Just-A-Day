@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405aec762b1d7f1429f59659d7060f42, type: 3}
+  m_Name: Work
+  m_EditorClassIdentifier: 
+  sequenceName: Work
+  steps:
+  - text: You start drawing...
+    time: 3
+    changeSprite: 1
+    newSprite: {fileID: 21300000, guid: 76a17920ce7e3674e99c48c9de2f8453, type: 3}
+    changeSound: 1
+    newSound: {fileID: 8300000, guid: a715d05e2d628584daaf0566f2e70f9a, type: 3}
+  - text: You can't seem to find the inspiration or the motivation to continue.
+    time: 5
+    changeSprite: 0
+    newSprite: {fileID: 21300000, guid: 76a17920ce7e3674e99c48c9de2f8453, type: 3}
+    changeSound: 0
+    newSound: {fileID: 0}
+  - text: Time passes but you don't seem to get nowhere...
+    time: 3
+    changeSprite: 1
+    newSprite: {fileID: 21300000, guid: 5c12f35f47c630c4bb69868cc0253444, type: 3}
+    changeSound: 1
+    newSound: {fileID: 8300000, guid: bdad5e6903fed4447a0bf60fe05ee4b1, type: 3}
+  finalText: Can you really keep going like this? Don't you feel like giving up?
+  optionAText: Keep going
+  optionASequence: {fileID: 11400000, guid: 3cd7c0933300d3943998568e064d26d4, type: 2}
+  optionBText: Give up
+  optionBSequence: {fileID: 11400000, guid: f46515a9f7d177e4796f6f2b1ba9c2a4, type: 2}
+  isEnd: 0

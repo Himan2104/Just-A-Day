@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405aec762b1d7f1429f59659d7060f42, type: 3}
+  m_Name: OpenEyes
+  m_EditorClassIdentifier: 
+  sequenceName: Open Eyes
+  steps:
+  - text: You open your eyes...
+    time: 4
+    changeSprite: 1
+    newSprite: {fileID: 21300000, guid: 055227a5df531d74f9830a4bc4b05d5b, type: 3}
+    changeSound: 1
+    newSound: {fileID: 8300000, guid: 0678765cbee288441b550b9c05785c8f, type: 3}
+  - text: Time is of no importance to you...
+    time: 4
+    changeSprite: 0
+    newSprite: {fileID: 21300000, guid: 055227a5df531d74f9830a4bc4b05d5b, type: 3}
+    changeSound: 0
+    newSound: {fileID: 0}
+  - text: You want to stay asleep.... Forever...
+    time: 4
+    changeSprite: 0
+    newSprite: {fileID: 21300000, guid: 055227a5df531d74f9830a4bc4b05d5b, type: 3}
+    changeSound: 1
+    newSound: {fileID: 0}
+  finalText: But should you choose to wake up... You will stare into the heart of
+    this rotten world... And it will look into yours...
+  optionAText: Wake up!
+  optionASequence: {fileID: 11400000, guid: 451b4ad8e47e0eb439388b6235f98cb1, type: 2}
+  optionBText: Stay asleep...
+  optionBSequence: {fileID: 11400000, guid: db01699ff85ebf949b595274a50d8674, type: 2}
+  isEnd: 0

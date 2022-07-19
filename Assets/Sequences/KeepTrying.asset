@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405aec762b1d7f1429f59659d7060f42, type: 3}
+  m_Name: KeepTrying
+  m_EditorClassIdentifier: 
+  sequenceName: Keep Trying
+  steps:
+  - text: You decide to keep going on.
+    time: 3
+    changeSprite: 1
+    newSprite: {fileID: 21300000, guid: 76a17920ce7e3674e99c48c9de2f8453, type: 3}
+    changeSound: 1
+    newSound: {fileID: 8300000, guid: a715d05e2d628584daaf0566f2e70f9a, type: 3}
+  - text: You keep giving it your best and come up with something...
+    time: 3
+    changeSprite: 1
+    newSprite: {fileID: 21300000, guid: 5c12f35f47c630c4bb69868cc0253444, type: 3}
+    changeSound: 0
+    newSound: {fileID: 0}
+  - text: It isn't your best work but at least you didn't give into your urges...
+    time: 4
+    changeSprite: 1
+    newSprite: {fileID: 21300000, guid: 232b25f3f9d0f084e8ba17cd677dcbeb, type: 3}
+    changeSound: 0
+    newSound: {fileID: 0}
+  - text: You go out to meet some friends... A good source of anti-depressants.
+    time: 10
+    changeSprite: 1
+    newSprite: {fileID: 21300000, guid: c3952291ef6c5f54c9b3c0f6b24a572e, type: 3}
+    changeSound: 1
+    newSound: {fileID: 8300000, guid: 9a2d16e7c0c086d46a355282f7063297, type: 3}
+  - text: You are not happy but at least you are satisfied.
+    time: 10
+    changeSprite: 1
+    newSprite: {fileID: 21300000, guid: 405e7997c85674a429d2f3fe0b5d296a, type: 3}
+    changeSound: 0
+    newSound: {fileID: 0}
+  finalText: 
+  optionAText: 
+  optionASequence: {fileID: 0}
+  optionBText: 
+  optionBSequence: {fileID: 0}
+  isEnd: 1

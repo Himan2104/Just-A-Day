@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405aec762b1d7f1429f59659d7060f42, type: 3}
+  m_Name: WakeUp
+  m_EditorClassIdentifier: 
+  sequenceName: Wake Up
+  steps:
+  - text: You wake up...
+    time: 2
+    changeSprite: 1
+    newSprite: {fileID: 21300000, guid: ee6b4a1e54eeea64eb3fc4b019b9aa39, type: 3}
+    changeSound: 1
+    newSound: {fileID: 0}
+  - text: Your thoughts begin to coagulate.
+    time: 2
+    changeSprite: 0
+    newSprite: {fileID: 21300000, guid: ee6b4a1e54eeea64eb3fc4b019b9aa39, type: 3}
+    changeSound: 0
+    newSound: {fileID: 0}
+  - text: You remember all the things that matter to you and all the responsibilities
+      you have.
+    time: 4
+    changeSprite: 1
+    newSprite: {fileID: 21300000, guid: 8152adc590556bc49a11fe5de2167de9, type: 3}
+    changeSound: 0
+    newSound: {fileID: 0}
+  finalText: Are you strong enough to push yourself to work?
+  optionAText: I should get to work.
+  optionASequence: {fileID: 11400000, guid: 6d2cc96735a18654db979464c624eda5, type: 2}
+  optionBText: A movie never ruined anything...
+  optionBSequence: {fileID: 11400000, guid: b575208d2edfa0e448dabff9a91c2b48, type: 2}
+  isEnd: 0
